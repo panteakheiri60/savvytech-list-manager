@@ -29,9 +29,9 @@ export default function App() {
   };
 
   return (
-    <div className="h-screen bg-white w-[100vw] flex justify-center bg-cover">
+    <div className="h-screen bg-white w-[100vw]  flex justify-center bg-cover">
       <div className="bg-white rounded-xl pb-8 w-full flex flex-col items-center ">
-        <div className="sticky flex shadow-sm justify-center  top-0 w-full bg-white/80 border-b-[1px] border-gray-300 backdrop-blur-sm pt-8 pb-4">
+        <div className="sticky flex shadow-sm justify-center  top-0 w-full px-4 bg-white/80 border-b-[1px] border-gray-300 backdrop-blur-sm pt-8 pb-4">
           <div className="w-full md:w-[80%] lg:w-[60%] flex justify-between items-center">
             <p
               className="text-[26px] sm:text-[36px] md:text-[40px] font-bold mb-4 text-center
@@ -52,7 +52,7 @@ export default function App() {
         </div>
 
      
-        <div className="w-full md:w-[80%] lg:w-[60%]">
+        <div className="w-full md:w-[80%] lg:w-[60%] px-4">
           {loading ? (
             <p className="text-gray-500 mt-6 text-center">Loading...</p>
           ) : items.length === 0 ? (
